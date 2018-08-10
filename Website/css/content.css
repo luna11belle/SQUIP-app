@@ -24,12 +24,20 @@
 
 
 .read-more-content,
-.read-more {
+.read-more,
+.read-more-1,
+.read-more-2,
+.read-more-3,
+.read-more-4 {
   display: none;
   margin-top: 1rem;
 }
 
 .read-more-content.expanded .read-more,
-.read-more.expanded .read-more {
+.read-more.expanded .read-more,
+.read-more-1.expanded .read-more,
+.read-more-2.expanded .read-more,
+.read-more-3.expanded .read-more,
+.read-more-4.expanded .read-more {
   display: block;
 }
